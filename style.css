@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: rgb(131, 6, 248);
+   
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(131, 6, 248);
+}
+
+.notesContent {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    width: 50%;
+    height: 85vh;
+} 
+
+#tagline{
+    text-align: center;
+}
+
+.headingInputs{
+    margin: 5% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.headingInputs #headinput{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.headingInputs #addhead{
+    border: none;
+    outline: none;
+    margin: 0% 3%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: rgb(131, 6, 248);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contentInputs{
+    margin: 0% 5%;
+}
+
+.contentInputs #contentinput{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.contentInputs #addnote{
+    border: none;
+    outline: none;
+    margin: 0% 3%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: rgb(131, 6, 248);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainContents {
+    margin: 2.5% 10%;
+    padding: 20px 20px;
+    text-align: justify;
+    border: 2px solid grey;
+    border-radius: 3px;
+    height: 40vh;
+}
+.mainContents p{
+    margin: 2% 0;
+    padding: 0 2px;
+    border: 2px solid white;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+#mainheading{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#reset{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 0% 5%;
+    cursor: pointer;
+
+}
+
+#save{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: rgb(131, 6, 248);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#savedata {
+    text-align: center;
+    margin: 3% 0%;
+}
